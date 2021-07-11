@@ -13,7 +13,7 @@ function preload(){
   astitwo2=loadImage("astitwo3.jpg")
   mock=loadImage("ratha6.png")
    bg2=loadImage("jagnath5.jpg")
-  sound=loadSound("sound.mp3")
+ 
 
 }
 
@@ -36,7 +36,7 @@ function draw() {
      astitwo.bounceOff(edges)
       if(frameCount<170){
     astitwo.visible=true
-        sound.play()
+       
   }
   else {
     background(bg2)
